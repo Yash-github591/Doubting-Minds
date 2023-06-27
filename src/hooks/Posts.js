@@ -118,7 +118,7 @@ export function useDeletePost(post) {
       "Are you sure you want to delete this question ?"
     );
 
-    if (pathname.startsWith("/protected/comments")) {
+    if (pathname.startsWith("/comments")) {
       navigate(DASHBOARD);
     }
 
